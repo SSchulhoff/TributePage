@@ -1,0 +1,77 @@
+
+body {
+    color:rgb(0, 0, 0);    /*change text color*/
+    padding-left: 80px;
+    padding-right: 80px;    /*change padding*/
+    background-color: rgb(75, 137, 158);    /*change background color*/
+    /*background: linear-gradient(
+        to right, 
+        #62adf3 0%, 
+        #62adf3 25%, 
+        #62adf3 50%,  
+        #62adf3 100%
+
+      );*/
+}
+a {
+   display:block;   
+   text-align:center;   /*aligned text*/
+   font-size: 20px;     /*change text size*/
+}
+
+img {
+    border-style: solid;    /*create border*/
+    border-color:rgb(96, 100, 122); /*change border color*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*picture set into center of the page*/
+}
+h1 {
+    text-align:center;  /*text aligned*/
+   /* padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    text centered and padding changed*/
+    font-family: 'Cookie', cursive;
+    /*font changed*/
+}
+h4 {
+    text-align:center;
+    /*text centered*/
+}
+h5 {
+    text-align:center;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    /*text centered*/
+}
+h3 {
+    text-align: center;     /*text centered*/
+}
+h2 {
+    text-align: center;     /*text centered*/
+}
+ol {
+    column-count: 2;
+    /*list column count changed*/
+    max-width: 75ch;    /*set max character width*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;     /*centered*/
+}
+p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;     /*centered*/
+    max-width: 75ch;    /*set max character width*/
+}
+div{
+    max-width: 65%;     /*only takes up part of the page*/
+    margin-left: auto;
+    margin-right: auto;     /*centered*/
+    background-color: rgb(255, 187, 187);   /*changed color*/
+    border-style:solid;     /*changed border*/
+    border-color:rgb(172, 194, 241);    /*change color*/
+}
